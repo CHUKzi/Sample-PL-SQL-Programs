@@ -1,2 +1,28 @@
 # Sample-PL-SQL-Programs
 This repository contains basic PL/SQL programs for beginners to learn and practice.
+
+# Create Sample Database for all this PL/SQL programs
+
+CREATE TABLE CUSTOMER (
+ID NUMBER NOT NULL,
+NAME VARCHAR(20) NOT NULL,
+AGE NUMBER NOT NULL,
+ADDRESS CHAR (25),
+SALARY NUMBER (18,2),
+PRIMARY KEY(ID)
+);
+
+INSERT INTO CUSTOMER (ID,NAME,AGE,ADDRESS,SALARY)
+VALUES (1,'Ramesh',32,'Ahmedabad',2000.00);
+
+INSERT INTO CUSTOMER (ID,NAME,AGE,ADDRESS,SALARY)
+VALUES (2,'Royan',20,'Hiyare',3000.00);
+
+INSERT INTO CUSTOMER (ID,NAME,AGE,ADDRESS,SALARY)
+VALUES (3,'Kasun',23,'Colombo',4000.00);
+
+INSERT INTO CUSTOMER (ID,NAME,AGE,ADDRESS,SALARY)
+VALUES (4,'Randika',25,'Kaluthara',4000.00);
+
+
+23.4.6V
